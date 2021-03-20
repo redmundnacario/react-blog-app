@@ -1,0 +1,33 @@
+
+.home {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.home-title {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:2vh;
+    margin-bottom: 2vh;
+
+}
+.blog-list{
+    width :50%;
+    .blog-item {
+        cursor: pointer;
+        border: none;
+        width: 100%;
+        // min-height: 200px;
+        /* border: solid 1px; */
+        display: flex;
+        flex-flow: column;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #ffffff;
+        box-shadow: 0 8px 16px -8px rgb(0 0 0 / 40%);
+    }
+}
